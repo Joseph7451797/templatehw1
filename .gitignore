@@ -1,2 +1,6 @@
-.DS_Store
-/.git
+# system file
+*.DS_Store
+
+# compiler tool file
+.codekit-cache
+config.codekit
