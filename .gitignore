@@ -4,3 +4,4 @@
 # compiler tool file
 .codekit-cache
 config.codekit
+config.rb
