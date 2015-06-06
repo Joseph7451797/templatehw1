@@ -1,0 +1,71 @@
+{
+  "checksum": {
+    "previous": "fb001a209664d726d7a51c226daf5b58e9720d792e13a3cf7f7f4d37965065a2",
+    "current": "fb001a209664d726d7a51c226daf5b58e9720d792e13a3cf7f7f4d37965065a2"
+  },
+  "fonts": [
+    "fontcustom/fontcustom_fb001a209664d726d7a51c226daf5b58.ttf",
+    "fontcustom/fontcustom_fb001a209664d726d7a51c226daf5b58.svg",
+    "fontcustom/fontcustom_fb001a209664d726d7a51c226daf5b58.woff",
+    "fontcustom/fontcustom_fb001a209664d726d7a51c226daf5b58.eot"
+  ],
+  "glyphs": {
+    "arrow-left": {
+      "codepoint": 61696,
+      "source": "./arrow-left.svg"
+    },
+    "arrow-right": {
+      "codepoint": 61697,
+      "source": "./arrow-right.svg"
+    },
+    "bell13": {
+      "codepoint": 61698,
+      "source": "./bell13.svg"
+    },
+    "favorite21": {
+      "codepoint": 61699,
+      "source": "./favorite21.svg"
+    },
+    "loud6": {
+      "codepoint": 61700,
+      "source": "./loud6.svg"
+    },
+    "writing9": {
+      "codepoint": 61701,
+      "source": "./writing9.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "fontcustom",
+    "force": false,
+    "input": {
+      "templates": ".",
+      "vectors": "."
+    },
+    "no_hash": false,
+    "output": {
+      "css": "fontcustom",
+      "fonts": "fontcustom",
+      "preview": "fontcustom"
+    },
+    "preprocessor_path": null,
+    "quiet": false,
+    "skip_first": false,
+    "templates": [
+      "css",
+      "preview"
+    ]
+  },
+  "templates": [
+    "fontcustom/fontcustom.css",
+    "fontcustom/fontcustom-preview.html"
+  ]
+}

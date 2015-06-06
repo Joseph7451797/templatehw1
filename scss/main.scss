@@ -1,0 +1,109 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+/*******************************
+ 
+ * custom css
+ 
+ *******************************/
+
+
+// --------------------
+//	global css
+// --------------------
+
+$base-font-size: 13px;
+$big-font-size: 18px;
+
+* {
+	  -webkit-box-sizing: border-box;
+	     -moz-box-sizing: border-box;
+	          box-sizing: border-box;
+	}
+
+html, body {
+	height: 100%;
+	font-size: $base-font-size;
+}
+
+a {
+  color: #f78e21;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 54px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h4 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  }
+
+
+// -------------------
+// variables
+// -------------------
+
+
+// -------------------
+// mixin
+// -------------------
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-shadow($shadow){
+  box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  -webkit-box-shadow: $shadow;
+}
+
+@mixin transition($box-shadow){
+  -webkit-transition: $box-shadow;
+     -moz-transition: $box-shadow;
+       -o-transition: $box-shadow;
+          transition: $box-shadow;
+  }
+
+
+// --------------------
+//	Partials
+// --------------------
+
+@import "index.scss";
+
+// -------------------
+// RWD
+// -------------------
+
+// 參數範圍大小設定值
+$desktop: 3840px 1025px;
+$tablet: 1024px 721px;
+$mobile: 720px 240px;
+
+// @import "rwd/rwd_tablet";
+// @import "rwd/rwd_mobile";
+
+
+
