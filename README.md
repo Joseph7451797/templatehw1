@@ -10,3 +10,6 @@ template work 1 是一個前端切版工作，參考範本網頁介面，自己�
   <li>font custom</li>
   <li>Flexslider plugin</li>
 </ul>
+
+<br/>
+所有程式碼基於 MIT 授權協定授權
