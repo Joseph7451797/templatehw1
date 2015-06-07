@@ -178,7 +178,7 @@ nav {
 			width: 295px;
 			height: 200px;
 			background-color: #dfdfdf;
-			background-image: url('http://ppt.cc/0hhP');
+			background-image: url('../images/blogpost1.jpg');
 			background-size: contain;
 			background-repeat: no-repeat;
 			overflow: hidden;
@@ -279,8 +279,20 @@ footer {
 				float: left;
 				span {
 					display: inline-block;
+					
 					font-size: 22px;
 					font-weight: bold;
+				}
+				.follow-text {
+					margin-right: 25px;
+				}
+				.fb-follow, .twitter-follow, .feed-follow {
+					margin: 10px 5px 10px 0;
+				}
+				.icon-facebook55, .icon-twitter1, .icon-web-feed1 {
+					padding: 8px;
+					background-color: #fff; 
+					color: #bbb;
 				}
 			}
 		}
@@ -292,6 +304,7 @@ footer {
 				display: inline-block;
 				padding: 0 25px;
 				width: 25%;
+				float: left;
 			}
 			.footer-middle-box-3 {
 				.recent-post-text {
@@ -306,6 +319,14 @@ footer {
 						}
 					}
 				}
+			}
+		}
+		.footer-bottom-container {
+			clear: both;
+			margin: 0 auto;
+			width: 1080px;
+			p {
+				padding: 50px 0 40px 0;
 			}
 		}
 	}

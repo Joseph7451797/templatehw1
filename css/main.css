@@ -266,7 +266,7 @@ nav .nav-container .search-block .search-form input[type="submit"] {
   width: 295px;
   height: 200px;
   background-color: #dfdfdf;
-  background-image: url("http://ppt.cc/0hhP");
+  background-image: url("../images/blogpost1.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -370,6 +370,17 @@ footer .footer-container .footer-top-container .footer-top-follow span {
   font-size: 22px;
   font-weight: bold;
 }
+footer .footer-container .footer-top-container .footer-top-follow .follow-text {
+  margin-right: 25px;
+}
+footer .footer-container .footer-top-container .footer-top-follow .fb-follow, footer .footer-container .footer-top-container .footer-top-follow .twitter-follow, footer .footer-container .footer-top-container .footer-top-follow .feed-follow {
+  margin: 10px 5px 10px 0;
+}
+footer .footer-container .footer-top-container .footer-top-follow .icon-facebook55, footer .footer-container .footer-top-container .footer-top-follow .icon-twitter1, footer .footer-container .footer-top-container .footer-top-follow .icon-web-feed1 {
+  padding: 8px;
+  background-color: #fff;
+  color: #bbb;
+}
 footer .footer-container .footer-middle-container {
   margin: 0 auto;
   width: 1080px;
@@ -379,6 +390,7 @@ footer .footer-container .footer-middle-container .footer-middle-box {
   display: inline-block;
   padding: 0 25px;
   width: 25%;
+  float: left;
 }
 footer .footer-container .footer-middle-container .footer-middle-box-3 .recent-post-text img {
   display: inline-block;
@@ -389,4 +401,12 @@ footer .footer-container .footer-middle-container .footer-middle-box-3 .recent-p
 footer .footer-container .footer-middle-container .footer-middle-box-3 .recent-post-text .recent-post-innertext h5 {
   width: 120px;
   vertical-align: top;
+}
+footer .footer-container .footer-bottom-container {
+  clear: both;
+  margin: 0 auto;
+  width: 1080px;
+}
+footer .footer-container .footer-bottom-container p {
+  padding: 50px 0 40px 0;
 }
