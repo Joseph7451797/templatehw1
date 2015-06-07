@@ -5,3 +5,4 @@
 .codekit-cache
 config.codekit
 config.rb
+.sass-cache/

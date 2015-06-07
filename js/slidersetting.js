@@ -7,4 +7,13 @@ $(window).load(function() {
     	pauseOnHover: true,
     	customDirectionNav: $(".custom-navigation a")  
     });
+
+    $('.words-slider').flexslider({
+    	animation: "slide",
+    	slideshowSpeed: 200000,
+    	randomize: true,
+    	pauseOnAction: true,            
+    	pauseOnHover: true
+    	// customDirectionNav: $(".custom-navigation a")  
+    });
 });
