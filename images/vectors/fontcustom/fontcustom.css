@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "fontcustom";
-  src: url("./fontcustom_fb001a209664d726d7a51c226daf5b58.eot");
-  src: url("./fontcustom_fb001a209664d726d7a51c226daf5b58.eot?#iefix") format("embedded-opentype"),
-       url("./fontcustom_fb001a209664d726d7a51c226daf5b58.woff") format("woff"),
-       url("./fontcustom_fb001a209664d726d7a51c226daf5b58.ttf") format("truetype"),
-       url("./fontcustom_fb001a209664d726d7a51c226daf5b58.svg#fontcustom") format("svg");
+  src: url("./fontcustom_0195057e4dd8db3a76d041436763531a.eot");
+  src: url("./fontcustom_0195057e4dd8db3a76d041436763531a.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_0195057e4dd8db3a76d041436763531a.woff") format("woff"),
+       url("./fontcustom_0195057e4dd8db3a76d041436763531a.ttf") format("truetype"),
+       url("./fontcustom_0195057e4dd8db3a76d041436763531a.svg#fontcustom") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +16,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: "fontcustom";
-    src: url("./fontcustom_fb001a209664d726d7a51c226daf5b58.svg#fontcustom") format("svg");
+    src: url("./fontcustom_0195057e4dd8db3a76d041436763531a.svg#fontcustom") format("svg");
   }
 }
 
@@ -26,8 +26,15 @@
 .icon-arrow-left:before,
 .icon-arrow-right:before,
 .icon-bell13:before,
+.icon-envelope4:before,
+.icon-facebook55:before,
 .icon-favorite21:before,
 .icon-loud6:before,
+.icon-shopping232:before,
+.icon-telephone5:before,
+.icon-twitter1:before,
+.icon-web-feed1:before,
+.icon-world91:before,
 .icon-writing9:before {
   display: inline-block;
   font-family: "fontcustom";
@@ -46,6 +53,13 @@
 .icon-arrow-left:before { content: "\f100"; }
 .icon-arrow-right:before { content: "\f101"; }
 .icon-bell13:before { content: "\f102"; }
+.icon-envelope4:before { content: "\f106"; }
+.icon-facebook55:before { content: "\f107"; }
 .icon-favorite21:before { content: "\f103"; }
 .icon-loud6:before { content: "\f104"; }
+.icon-shopping232:before { content: "\f10c"; }
+.icon-telephone5:before { content: "\f108"; }
+.icon-twitter1:before { content: "\f109"; }
+.icon-web-feed1:before { content: "\f10a"; }
+.icon-world91:before { content: "\f10b"; }
 .icon-writing9:before { content: "\f105"; }

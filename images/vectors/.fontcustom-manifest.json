@@ -1,13 +1,13 @@
 {
   "checksum": {
-    "previous": "fb001a209664d726d7a51c226daf5b58e9720d792e13a3cf7f7f4d37965065a2",
-    "current": "fb001a209664d726d7a51c226daf5b58e9720d792e13a3cf7f7f4d37965065a2"
+    "previous": "0195057e4dd8db3a76d041436763531aaeb9f2c9ff306ae12048ec1cffe6f3f4",
+    "current": "0195057e4dd8db3a76d041436763531aaeb9f2c9ff306ae12048ec1cffe6f3f4"
   },
   "fonts": [
-    "fontcustom/fontcustom_fb001a209664d726d7a51c226daf5b58.ttf",
-    "fontcustom/fontcustom_fb001a209664d726d7a51c226daf5b58.svg",
-    "fontcustom/fontcustom_fb001a209664d726d7a51c226daf5b58.woff",
-    "fontcustom/fontcustom_fb001a209664d726d7a51c226daf5b58.eot"
+    "fontcustom/fontcustom_0195057e4dd8db3a76d041436763531a.ttf",
+    "fontcustom/fontcustom_0195057e4dd8db3a76d041436763531a.svg",
+    "fontcustom/fontcustom_0195057e4dd8db3a76d041436763531a.woff",
+    "fontcustom/fontcustom_0195057e4dd8db3a76d041436763531a.eot"
   ],
   "glyphs": {
     "arrow-left": {
@@ -22,6 +22,14 @@
       "codepoint": 61698,
       "source": "./bell13.svg"
     },
+    "envelope4": {
+      "codepoint": 61702,
+      "source": "./envelope4.svg"
+    },
+    "facebook55": {
+      "codepoint": 61703,
+      "source": "./facebook55.svg"
+    },
     "favorite21": {
       "codepoint": 61699,
       "source": "./favorite21.svg"
@@ -29,6 +37,26 @@
     "loud6": {
       "codepoint": 61700,
       "source": "./loud6.svg"
+    },
+    "shopping232": {
+      "codepoint": 61708,
+      "source": "./shopping232.svg"
+    },
+    "telephone5": {
+      "codepoint": 61704,
+      "source": "./telephone5.svg"
+    },
+    "twitter1": {
+      "codepoint": 61705,
+      "source": "./twitter1.svg"
+    },
+    "web-feed1": {
+      "codepoint": 61706,
+      "source": "./web-feed1.svg"
+    },
+    "world91": {
+      "codepoint": 61707,
+      "source": "./world91.svg"
     },
     "writing9": {
       "codepoint": 61701,
