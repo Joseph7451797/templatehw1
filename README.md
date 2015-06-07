@@ -12,4 +12,4 @@ template work 1 是一個前端切版工作，參考範本網頁介面，自己�
 </ul>
 
 <br/>
-所有程式碼基於<a href="https://github.com/Joseph7451797/templatehw1/blob/master/LICENSE">MIT</a>授權協定授權
+所有程式碼基於 <a href="https://github.com/Joseph7451797/templatehw1/blob/master/LICENSE">MIT</a> 授權協定授權
