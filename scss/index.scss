@@ -297,7 +297,7 @@ footer {
 			}
 		}
 		.footer-middle-container {
-			margin: 0 auto;
+			margin: 0px auto;
 			width: 1080px;
 			clear: both;
 			.footer-middle-box {
@@ -306,27 +306,63 @@ footer {
 				width: 25%;
 				float: left;
 			}
-			.footer-middle-box-3 {
-				.recent-post-text {
-					img {
-						display: inline-block;
+			.footer-middle-box-1 {
+				p {
+					padding-top: 20px;
+					color: #666;
+					line-height: 1.4;
+				}
+			}
+			.footer-middle-box-2 {
+				p {
+					padding-top: 20px;
+					line-height: 1.4;
+					span {
+						color: #666;
 					}
-					.recent-post-innertext {
-						display: inline-block;
-						h5 {
-							width: 120px;
+				}
+			}
+			.footer-middle-box-3 {
+				.recent-post-box {
+					margin-top: 30px;
+					.recent-post-text {
+						margin-top: 20px;	
+						img {
+							display: inline-block;
+						}
+						.recent-post-innertext {
+							display: inline-block;
 							vertical-align: top;
+							padding: 0 10px;
+							h5 {
+								vertical-align: top;
+								margin-bottom: 20px;
+								width: 120px;
+							}
+							span {
+								color: #f78e21;
+							}
 						}
 					}
 				}
 			}
+			.footer-middle-box-4 {
+				p {
+					margin-top: 20px;
+					line-height: 1.4;
+				}
+				i {
+					margin-right: 10px;
+					color: #f78e21;
+				}
+			} 
 		}
 		.footer-bottom-container {
 			clear: both;
 			margin: 0 auto;
 			width: 1080px;
 			p {
-				padding: 50px 0 40px 0;
+				padding: 70px 0 40px 0;
 			}
 		}
 	}
