@@ -1,7 +1,7 @@
 $(window).load(function() {
     $('.flexslider').flexslider({
     	animation: "fade",
-    	slideshowSpeed: 5000,
+    	slideshowSpeed: 20000,
     	randomize: true,
     	pauseOnAction: true,            
     	pauseOnHover: true,
