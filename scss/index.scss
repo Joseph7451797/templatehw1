@@ -84,12 +84,33 @@ nav {
 .fs-container {
 	.flexslider {
 		.slides {
-			li div {
-				display: block;
-				position: absolute;
-				margin: 150px 250px;
-				width: 700px;
-				text-align: center;
+			li {
+				.slide-li-textbox {
+					position: absolute;
+					margin-top: 90px;
+					width: 100%;
+					text-align: center;
+					h1 {
+						color: #f78e21;
+						text-shadow: 1px 1px #777;
+						text-transform: uppercase;		
+					}
+					p {
+						margin: 20px 0 40px 0;
+						padding: 0 300px;
+						color: #fff;
+						font-size: 15px;
+						line-height: 1.4;
+					}
+					a {
+						span{
+							padding: 10px 45px;
+							background-color: #f78e21;
+							color: #fff;
+							font-size: 20px; 
+						}
+					}
+				}
 			}
 			li img {
 				width: 100%;
@@ -183,6 +204,7 @@ nav {
 			background-repeat: no-repeat;
 			overflow: hidden;
 			&:hover .img-box-text{
+				transform: translateY(-55%);
 				-webkit-transform: translateY(-55%);
 			}
 			.img-box-text {
@@ -293,6 +315,10 @@ footer {
 					padding: 8px;
 					background-color: #fff; 
 					color: #bbb;
+					&:hover {
+						background-color: #f78e21;
+						color: #fff;
+					}
 				}
 			}
 		}

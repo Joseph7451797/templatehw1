@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$base-font-size".
-        on line 154 of /Users/Joseph/Documents/codes/templatehw1/scss/index.scss
+        on line 175 of /Users/Joseph/Documents/codes/templatehw1/scss/index.scss
 
-149: 					font-size: 28px;
-150: 					line-height: 80px;
-151: 				}
-152: 			}
-153: 			p {
-154: 				font-size: $base-font-size;
-155: 				color: #666;
-156: 				line-height: 1.4;
-157: 			}
-158: 		}
-159: 	}
+170: 					font-size: 28px;
+171: 					line-height: 80px;
+172: 				}
+173: 			}
+174: 			p {
+175: 				font-size: $base-font-size;
+176: 				color: #666;
+177: 				line-height: 1.4;
+178: 			}
+179: 		}
+180: 	}
 
 Backtrace:
-/Users/Joseph/Documents/codes/templatehw1/scss/index.scss:154
+/Users/Joseph/Documents/codes/templatehw1/scss/index.scss:175
 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -105,4 +105,4 @@ org/jruby/RubyProc.java:271:in `call'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$base-font-size\".\A         on line 154 of /Users/Joseph/Documents/codes/templatehw1/scss/index.scss\A \A 149: 					font-size: 28px;\A 150: 					line-height: 80px;\A 151: 				}\A 152: 			}\A 153: 			p {\A 154: 				font-size: $base-font-size;\A 155: 				color: #666;\A 156: 				line-height: 1.4;\A 157: 			}\A 158: 		}\A 159: 	}"; }
+  content: "Error: Undefined variable: \"$base-font-size\".\A         on line 175 of /Users/Joseph/Documents/codes/templatehw1/scss/index.scss\A \A 170: 					font-size: 28px;\A 171: 					line-height: 80px;\A 172: 				}\A 173: 			}\A 174: 			p {\A 175: 				font-size: $base-font-size;\A 176: 				color: #666;\A 177: 				line-height: 1.4;\A 178: 			}\A 179: 		}\A 180: 	}"; }
