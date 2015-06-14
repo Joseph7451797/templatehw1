@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$base-font-size".
-        on line 180 of /Users/Joseph/Documents/codes/templatehw1/scss/index.scss
+        on line 185 of /Users/Joseph/Documents/codes/templatehw1/scss/index.scss
 
-175: 					font-size: 28px;
-176: 					line-height: 80px;
-177: 				}
-178: 			}
-179: 			p {
-180: 				font-size: $base-font-size;
-181: 				color: #666;
-182: 				line-height: 1.4;
+180: 					font-size: 28px;
+181: 					line-height: 80px;
+182: 				}
 183: 			}
-184: 		}
-185: 	}
+184: 			p {
+185: 				font-size: $base-font-size;
+186: 				color: #666;
+187: 				line-height: 1.4;
+188: 			}
+189: 		}
+190: 	}
 
 Backtrace:
-/Users/Joseph/Documents/codes/templatehw1/scss/index.scss:180
+/Users/Joseph/Documents/codes/templatehw1/scss/index.scss:185
 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/sass-3.4.13/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -105,4 +105,4 @@ org/jruby/RubyProc.java:271:in `call'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$base-font-size\".\A         on line 180 of /Users/Joseph/Documents/codes/templatehw1/scss/index.scss\A \A 175: 					font-size: 28px;\A 176: 					line-height: 80px;\A 177: 				}\A 178: 			}\A 179: 			p {\A 180: 				font-size: $base-font-size;\A 181: 				color: #666;\A 182: 				line-height: 1.4;\A 183: 			}\A 184: 		}\A 185: 	}"; }
+  content: "Error: Undefined variable: \"$base-font-size\".\A         on line 185 of /Users/Joseph/Documents/codes/templatehw1/scss/index.scss\A \A 180: 					font-size: 28px;\A 181: 					line-height: 80px;\A 182: 				}\A 183: 			}\A 184: 			p {\A 185: 				font-size: $base-font-size;\A 186: 				color: #666;\A 187: 				line-height: 1.4;\A 188: 			}\A 189: 		}\A 190: 	}"; }

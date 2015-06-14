@@ -119,6 +119,13 @@ header .header-container .header-button-right {
   right: 465px;
   color: #fff;
 }
+header .header-container .header-button-right .item-number {
+  color: #f78e21;
+}
+header .header-container .header-button-right .plus-btn {
+  color: #f78e21;
+  cursor: pointer;
+}
 
 nav {
   clear: both;
@@ -228,7 +235,8 @@ nav .nav-container .search-block .search-form input[type="submit"]:focus {
 .service-container {
   clear: both;
   width: 100%;
-  height: 500px;
+  height: 550px;
+  overflow: auto;
 }
 .service-container .service-top-block {
   width: 375px;
@@ -328,6 +336,20 @@ nav .nav-container .search-block .search-form input[type="submit"]:focus {
 }
 .last-content-comtainer .lastcontent-top-block h2 {
   text-align: center;
+}
+.last-content-comtainer .words-container {
+  width: 50%;
+  margin: 0 auto;
+  line-height: 1.4;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+}
+.last-content-comtainer .words-container .words-slider .flex-control-nav, .last-content-comtainer .words-container .words-slider .flex-control-paging, .last-content-comtainer .words-container .words-slider .flex-direction-nav {
+  display: none;
+}
+.last-content-comtainer .words-container .words-slider .words-author-name {
+  margin-top: 30px;
 }
 
 footer {
