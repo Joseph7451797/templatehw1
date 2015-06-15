@@ -1,7 +1,14 @@
 $(document).ready(function() {
-	var makeNum = Number($(".item-number").innerHTML);
-	console.log(makeNum);
 	$(".plus-btn").click(function() {
-		$(".item-number").text('1');
+		var j = 1,
+			makeNum = Number($(".item-number").text()),
+			count = makeNum + j,
+			minus_count = makeNum - j;
+			
+		if(makeNum == 0) {
+			$(".item-number").text(count);
+		}else{
+			$(".item-number").text(minus_count);
+		}
 	});
 });
